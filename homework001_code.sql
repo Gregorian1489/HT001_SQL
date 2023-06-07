@@ -18,13 +18,13 @@ INSERT INTO `test_schema`.`copytable` (`ProductName`, `Manufacter`, `ProductCoun
 
 
 
-- Выведите название, производителя и цену для товаров, количество которых превышает 2
+2. Выведите название, производителя и цену для товаров, количество которых превышает 2
 
 SELECT ProductName, Manufacter, Price 
 FROM phone_ht001
 WHERE ProductCount > 2;
 
-- Выведите весь ассортимент товаров марки “Samsung”
+3. Выведите весь ассортимент товаров марки “Samsung”
 
 SELECT * FROM phone_ht001
 WHERE Manufacter = 'Sumsung';
